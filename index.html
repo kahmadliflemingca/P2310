@@ -122,16 +122,17 @@ body {font-family: "Lato", sans-serif}
 
  <!-- The Tour Section -->
  <div class="w3-black" id="tour">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:1500px">
     <h2 class="w3-wide w3-center">Methodology</h2>
     <h2 class="w3-wide w3-wide w3-center">Data Pre-processing</h2>
-    <p >Project:
-                 All acquired data were projected to the same NAD 1983 UTM Zone 18N projection as the Study Area. This preprocessing step was necessary to ensure the accuracy of the results during the analysis stage. Criteria that were dependent on the properties derived from the data – included (but were not limited to) distance, length, area, orientation, angle, and slope – required an appropriate projection to obtain accurate results.</p>
+    <p >Project:All acquired data were projected to the same NAD 1983 UTM Zone 18N projection as the Study Area. This preprocessing step was necessary to ensure the accuracy of the results during the analysis stage. Criteria that were dependent on the properties derived from the data – included (but were not limited to) distance, length, area, orientation, angle, and slope – required an appropriate projection to obtain accurate results.</p>
 <p>Clip: All acquired data was clipped to the extent of the Conservancy’s AOI. This improved efficiency by creating a new geographic subset of features that were within the boundary of the Study Area – which avoided time-consuming or size-limiting issues due to unnecessarily substantial amounts of data during the analysis stage. The data was processed by utilizing the “Clip” tool for the vector data and the “Clip Raster” tool for the raster data.</p>
     <p>Attribute Table Edits:
       The attribute tables for each of the Conservancy’s datasets were updated with added “Land_Type” fields and populated with their respective attributions to retain information that was useful to the Conservancy for later potential querying (“Canadian Shield” vs “Mixed Wood” land types), prior to the merging stage.</p>
     <p> Merge:
       The OIH data was separated into Southwest and Southeast datasets that required merging the Southwest with their Southeast counterparts to create singular Enforced DEM, and Enhanced Flow Direction. This processing step was important for the efficiency and organization of the collective data for the analysis stage. The Conservancy’s data was separated into “Canadian Shield” and “Mixed Wood” datasets that were also merged.</p>
+     
+      <img src="images/data.png"  style="width:100%">
       <h2 class="w3-wide w3-wide w3-center">Watershed / Headwater Analysis</h2>
     <p > The following flow chart graphic outlines the basic procedure that was followed to process the DEM to create the quaternary watershed (catchment) and headwater data layers. Please note that the term quaternary watershed has been used in association with size and naming of Ontario Provincial standards.</p>
 
